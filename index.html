@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body class="bg-[#f9faef]">
+<body class="bg-gradient-to-bl from-[#e9fff1]">
     <nav>
         <div class="flex flex-wrap justify-between items-center h-10 mb-4">
             <div class="ml-6">
@@ -30,6 +30,47 @@
         </div>
         <hr>
     </nav>
-    <div class=""></div>
+    <div class="flex justify-between py-12 px-40">
+        <div class="flex">
+            <div class="pr-8 pt-3">
+                <div class=""><img class="h-10 w-10" src="./images/avatar.svg"></div>
+            </div>
+            <div class="">
+                <h1 class="text-3xl font-bold">Good morning</h1>
+                <p class="">Here's an overview of your properties</p>
+            </div>
+        </div>
+        <div class="flex">
+            <button class="border-2 border-gray-200 rounded-full bg-white m-3 px-3 pb-1">Last month</button>
+            <button class="border-2 border-gray-200 rounded-full bg-[#0e8b3a] text-white m-3 px-3 pb-1">Analytics</button>
+        </div>
+    </div>
+    <div class="flex justify-around">
+        <div class="border-2 border-gray-200 rounded-xl bg-white">
+            <div class="flex justify-around">
+                <p class="py-6 px-10">Check'ins</p>
+                <img class="h-7 w-7" src="./images/key.svg">
+            </div>
+            <h1 class="text-2xl font-bold pl-9 pb-4">12</h1>
+        </div>
+        <div class="border-2 border-gray-200 rounded-xl bg-white">
+            <p class="">Check'outs</p>
+            <h1 class="">32</h1>
+        </div>
+        <div class="border-2 border-gray-200 rounded-xl bg-white">
+            <p class="">Earnings</p>
+            <div class="flex">
+                <h1 class="">$4.923</h1>
+                <p class="text-gray-300">,68</p>
+            </div>
+        </div>
+        <div class="border-2 border-gray-200 rounded-xl bg-white">
+            <p class="text-gray-500">Revieuws</p>
+            <div class="flex">
+                <h1 class="">4.5</h1>
+                <p class="text-gray-400">(1400)</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
